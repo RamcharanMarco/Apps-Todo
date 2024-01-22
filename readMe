@@ -1,0 +1,20 @@
+create a todo app that has push notifications
+
+what happens when user create a todo
+there is a completion time
+todo name
+group
+description
+state => opneend, done, incomplete\
+notified => false or true
+prefferd notifaction method => sms, email or browser notification
+
+user will be reminded half an hour before todo is needed to be done
+via sms, email and web browser notification
+
+if the user does not touch the todo and set status to done
+we will flag it as incpmplete and send them a message
+
+duplicate old todo
+
+cronjob in backedn running every half an hour to remind if there is a todo do
